@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-int main()
-{
+int main(){
     //Using While loop to Convert temperature (*F->*C) using C=(5/9)(F-32)
-    void while_loop_section()
-    {
+    void while_loop_section(){
         float fahr, celsius;
         int lower, upper, step; //Must declare the type of var before use.
         
@@ -24,8 +22,8 @@ int main()
     }
 
     //Using For loop to Convert temperature (*C->*F) using F = C(9/5)+32
-    void for_loop_section() //Declaring own function for_loop_section as void bcuz it takes no input
-    {
+    void for_loop_section(){ //Declaring own function for_loop_section as void bcuz it takes no input
+    
         int celsius; //Initialized Celsius as int bcuz we want it as int
         printf("\nUsing For loops to convert C to F\n"); //Header message
         
@@ -34,8 +32,7 @@ int main()
     }
 
     //Using proper constant definition
-    void Constant_definition_section()
-    {
+    void Constant_definition_section(){
         #define PI 3.141592 //Do not use ; to end constant definition statements
         float radius = 4.5;
 
